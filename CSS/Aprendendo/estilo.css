@@ -1,0 +1,32 @@
+div {
+    font-family: Verdana;
+    margin: 60px;
+}
+
+h1 {
+    font-size: 22px;
+    text-align: center;
+    line-height: 28px;
+    height: 200px;
+    width: 400px;
+}
+
+h2 {
+    font-size: 18px;
+    color: #88100f;
+    font-weight: normal;
+    text-align: center;
+}
+
+h3 {
+    font-size: 16px;
+    text-decoration: underline;
+    color: #88100f;
+    line-height: 28px;
+}
+
+p {
+    font-size: 14px;
+    line-height: 28px;
+    text-align: justify;
+}
