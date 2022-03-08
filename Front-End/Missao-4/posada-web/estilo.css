@@ -1,0 +1,27 @@
+body {
+    font-family: "Source Sans Pro", sans-serif;
+}
+
+a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.link-topo{
+    color: #fff;
+    text-decoration: none;
+}
+
+#topo{
+    width: 1990px;
+    display: flex;
+    
+}
+
+#link-pagina-inicial{
+    align-items: flex-start;
+}
+
+#link-navegacao{
+    align-items:flex-end
+}
