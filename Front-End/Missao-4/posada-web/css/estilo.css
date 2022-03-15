@@ -1,4 +1,4 @@
-* {
+body {
   margin: 0;
   padding: 0;
   font-family: "Source Sans Pro", sans-serif;
@@ -12,12 +12,28 @@
 
 /*   MENU FIXO   */
 
+#bloco{
+  background: #fff;
+  height: 80px;
+  width: 100%;
+  display: flex;
+}
+#bloco-quartos{
+  background: url("../assets/img-fundo.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 200px;
+  width: 100%;
+  display: flex;
+}
+
+
 #topo-container {
   background: #fff;
   font-size: 18px;
   height: 80px;
   width: 100%;
-  display: block;
+  position: fixed;
 }
 
 #topo {
@@ -42,7 +58,7 @@
 
 /*     BANNER     */
 #banner {
-  background: url("./assets/img-fundo.jpg");
+  background: url("../assets/img-fundo.jpg");
   max-width: 100%;
   height: 600px;
   background-position: center;
@@ -76,7 +92,7 @@
   font-size: 20px;
 }
 
-/*    QUARTOS    */
+/*    INDEX-QUARTOS    */
 
 #quartos {
   display: flex;
@@ -105,7 +121,7 @@
 .quartos {
   width: 25%;
   min-width: 300px;
-  border-bottom: 2px solid green;
+  border-bottom: 2px solid rgb(94, 128, 94);
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -123,6 +139,50 @@
   width: 100%;
   margin-bottom: 10px;
 }
+
+
+/*    QUARTOS    */
+
+.tipo-quartos{
+  display: flex;
+  width: 100%;
+}
+
+.titulo{
+  height: 150px;
+  text-align: center;
+  padding: 30px;
+}
+
+.titulo h1{
+  padding-bottom: 30px;
+}
+
+.fotos-quarto{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.fotos-quarto .imagem{
+  padding: 0 20px;
+  width: 350px;
+  height: 250px;
+}
+
+.lista-opcoes-quarto{
+  padding: 0 15%;
+  height: 150px;
+  text-align: center;
+}
+
+.lista-opcoes-quarto div{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
 
 /*     ROTA     */
 #rota {
