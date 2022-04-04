@@ -1,0 +1,136 @@
+* {
+  width: max-content;
+  width: auto;
+  margin: 0;
+}
+
+body {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+  font-family: Tahoma;
+  font-size: 18px;
+  text-align: center;
+  color: #1d1d1d;
+}
+
+span {
+  font-weight: bold;
+}
+
+#cabecalho {
+  margin-top: 0;
+  height: 250px;
+  background-color: #afddfb;
+}
+
+#cabecalho img {
+  max-width: auto;
+  width: 150px;
+  margin: 20px auto;
+}
+
+#cabecalho a {
+  margin: 15px 10px 25px;
+  font-size: 18px;
+  color: #1d1d1d;
+  text-decoration: none;
+  border-bottom: 2px solid #1d1d1d;
+}
+
+#banner {
+  margin-top: 50px;
+}
+
+#sobre {
+  margin: 100px 300px;
+}
+
+#sobre h1 {
+  margin-bottom: 5px;
+}
+
+#sobre h2 {
+  color: #1c81c0;
+  font-weight: normal;
+}
+
+#sobre img {
+  height: 450px;
+}
+
+#sobre p {
+  margin: 0 100px;
+  line-height: 30px;
+  text-align: justify;
+}
+#sobre span {
+  color: #1c81c0;
+}
+
+#servicos {
+  padding: 50px 400px;
+  background-color: #1d80c1;
+  color: #ffffff;
+  line-height: 42px;
+}
+
+#servicos h2 {
+  font-size: 28px;
+}
+
+#servicos p {
+  font-size: 22px;
+}
+
+#servicos span {
+  color: #fff81b;
+}
+
+#servicos li {
+  text-align: left;
+  margin-left: 45%;
+}
+
+#corretores {
+  margin: 50px 200px;
+}
+
+#corretores h2 {
+  color: #1c81c0;
+}
+
+#corretores img {
+  width: 500px;
+}
+
+#corretores span {
+  color: #1c81c0;
+}
+
+#asd {
+  width: max-content;
+  width: auto;
+  padding: 50px;
+  background-color: #1d80c1;
+  color: #ffffff;
+}
+
+#contato p {
+  width: max-content;
+  width: auto;
+  text-align: center;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #1d1d1d;
+}
+
+#contato li {
+  width: max-content;
+  list-style: none;
+  margin: 10px;
+  padding: 5px;
+  color: #1c81c0;
+  border-radius: 5px;
+  background-color: #ffffff;
+}
