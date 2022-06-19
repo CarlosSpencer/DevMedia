@@ -48,11 +48,88 @@
     color: #fff;
 }
 
-#contato{
 
+#sobre {
+    display: flex;
+    text-align: center;
 }
 
+#sobre #texto-sobre {
+    margin: 30px auto;
+    padding: 0 150px;
+}
 
+#sobre #lista-sobre{
+    display: inline-flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 15px;
+    width: 1024px;
+    text-align: left;
+}
+
+#sobre #lista-sobre h3{
+    margin: 10px 0;
+}
+
+#sobre #lista-sobre ul{
+    padding-left: 30px;
+}
+
+#especialidades{
+    display: flex;
+    text-align: center;
+}
+
+#especialidades #especialdiades-sobre{
+    margin: 30px auto;
+    padding: 0 150px;
+}
+
+#especialidades #especialidades-tipos{
+    display: flex;
+    justify-content: space-between;
+    margin: 15px auto;
+}
+#especialidades #especialidades-tipos figure{
+    box-shadow: 0 0 1em grey;
+}
+
+#especialidades #especialidades-tipos figcaption{
+    padding: 10px;
+}
+
+#especialidades #especialidades-tipos figure img{
+    width: 300px;
+}
+#especialidades #horarios {
+    margin: 50px auto;
+}
+#especialidades #horarios a{
+    padding: 20px;
+    background-color: mediumaquamarine;
+    color: #fff;
+    text-decoration: none;
+}
+
+#contato {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+#contato .conteudo{
+    margin: 50px auto;
+    padding: auto 200px;
+}
+
+#contato p{
+    padding: 10px 200px;
+}
+
+#contato span{
+    font-weight: bold;
+}
 
 #rodape{
     background-color: mediumaquamarine;
