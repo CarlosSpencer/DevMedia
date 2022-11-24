@@ -1,7 +1,11 @@
 <?php
-   use ItemVenda\ItemVenda;
-   use Venda\Venda;
 
+   use ItemVenda\ItemVenda;
+use PhpParser\Node\Stmt\Finally_;
+use Venda\Venda;
+   use VendaException\VendaException;
+
+   require_once "VendaException.php";
    require_once "Venda.php";
    require_once "ItemVenda.php";
 
@@ -19,6 +23,8 @@
        $Venda->adicionar($bone);
 
        print  "Total da venda: " . $Venda->getTotal();
-   } catch (\InvalidArgumentException $e) {
-       echo "Um problema ocorreu: " . $e->getMessage();
+   } catch (VendaException $e){
+       echo "VendaException: " . $e->getMessage() . " - Código: "  . $e->getCodigo();
+   } finally {
+    echo ("<br/> Processamento encerrado");
    }

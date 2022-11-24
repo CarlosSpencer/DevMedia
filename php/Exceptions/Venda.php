@@ -2,14 +2,16 @@
 
 namespace Venda;
 
+use VendaException\VendaException;
+
 class Venda {
 
    private $itens = [];
 
    public function adicionar($ItemVenda) {
-      if($ItemVenda == null) {
-          throw new \InvalidArgumentException("Item não pode ser nulo");
-      }
+       if($ItemVenda == null) {
+           throw new VendaException(500,"Item não pode ser nulo");
+       }
        array_push($this->itens, $ItemVenda);
    }
 
