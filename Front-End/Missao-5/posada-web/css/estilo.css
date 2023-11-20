@@ -12,13 +12,13 @@ body {
 
 /*   MENU FIXO   */
 
-#bloco{
+#bloco {
   background: #fff;
   height: 80px;
   width: 100%;
   display: flex;
 }
-#bloco-quartos{
+#bloco-quartos {
   background: url("../assets/img-fundo.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -26,7 +26,6 @@ body {
   width: 100%;
   display: flex;
 }
-
 
 #topo-container {
   background: #fff;
@@ -140,49 +139,47 @@ body {
   margin-bottom: 10px;
 }
 
-
 /*    QUARTOS    */
 
-.tipo-quartos{
+.tipo-quartos {
   display: flex;
   width: 100%;
 }
 
-.titulo{
+.titulo {
   height: 150px;
   text-align: center;
   padding: 30px;
 }
 
-.titulo h1{
+.titulo h1 {
   padding-bottom: 30px;
 }
 
-.fotos-quarto{
+.fotos-quarto {
   display: flex;
   justify-content: center;
   width: 100%;
 }
 
-.fotos-quarto .imagem{
+.fotos-quarto .imagem {
   padding: 0 20px;
   width: 350px;
   height: 250px;
 }
 
-.lista-opcoes-quarto{
+.lista-opcoes-quarto {
   padding: 0 15%;
   height: 150px;
   text-align: center;
 }
 
-.lista-opcoes-quarto div{
+.lista-opcoes-quarto div {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
 }
-
 
 /*     ROTA     */
 #rota {
@@ -218,7 +215,7 @@ body {
   width: 100%;
 }
 
-#texto-sobre{
+#texto-sobre {
   width: 100%;
   text-align: center;
   padding: 50px 0;
@@ -229,7 +226,7 @@ body {
   margin-bottom: 20px;
 }
 
-#quadro-sobre{
+#quadro-sobre {
   width: 100%;
   display: flex;
   flex-direction: row;
@@ -239,7 +236,7 @@ body {
   align-content: center;
 }
 
-.quadros-sobre{
+.quadros-sobre {
   width: 35%;
   display: inline-flex;
   justify-content: space-between;
@@ -252,17 +249,17 @@ body {
   width: 70%;
 }
 
-.quadro-sobre-descricao h3{
+.quadro-sobre-descricao h3 {
   margin-bottom: 10px;
 }
 
-.quadro-sobre-imagem img{
+.quadro-sobre-imagem img {
   width: 150px;
   height: 150px;
 }
 
 /*     RODAPE    */
-#rodape{
+#rodape {
   background-color: rgb(94, 128, 94);
   display: inline-flex;
   width: 100%;
@@ -271,7 +268,7 @@ body {
   justify-content: center;
 }
 
-#contato{
+#contato {
   display: flex;
   justify-content: space-evenly;
   width: 80%;
@@ -279,32 +276,30 @@ body {
   border-bottom: 1px solid #fff;
 }
 
-.quadro-contato{
+.quadro-contato {
   display: flex;
   justify-content: center;
   flex-direction: row;
   align-items: center;
   align-content: center;
-  
 }
 
-#contato h2{
+#contato h2 {
   font-size: 18px;
   color: white;
 }
 
-#contato img{
+#contato img {
   margin: 20px;
   width: 50px;
-  
 }
 
-#contato a{
+#contato a {
   text-decoration: none;
   color: white;
 }
 
-#direitos{
+#direitos {
   background-color: rgb(94, 128, 94);
   text-align: center;
   padding: 20px;
